@@ -1,69 +1,46 @@
-# Welcome to your Lovable project
+# AI-Powered Academic Assistant
 
-## Project info
+A smart, AI-driven academic assistant designed using **Google Dialogflow**, and **React.js**.  
+This system helps students interact with academic information through a conversational interface.
 
-**URL**: https://lovable.dev/projects/2822e743-2aa3-4ad3-9785-b4e7870b10df
+---
 
-## How can I edit this code?
+## 📌 Features
 
-There are several ways of editing your application.
+- 💬 Conversational AI chatbot for real-time academic support  
+- 🔐 Secure login using institutional email and roll number  
+- 📁 Access to timetables, syllabi, and faculty details  
+- ☁️ Cloud-based document retrieval (Firebase Storage) 
+- 📱 Responsive UI designed for desktop and mobile
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2822e743-2aa3-4ad3-9785-b4e7870b10df) and start prompting.
+## 🧠 Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React.js, HTML, CSS  
+- **AI Engine**: Google Dialogflow  
+- **Authentication**: Firebase Auth  
+- **Storage**: Google Cloud Storage  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Future Scope
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 🎙️ Voice-based interaction  
+- 🌐 Multilingual support  
+- 📊 Student usage analytics  
+- 📱 Mobile application  
+- 🔗 Integration with LMS (e.g., Moodle, Google Classroom)
 
-Follow these steps:
+---
+🔗 Required Vertex AI API
+This project uses Google Cloud Vertex AI for advanced conversational capabilities.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
+## 🛠️ Getting Started
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2822e743-2aa3-4ad3-9785-b4e7870b10df) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+# Start the dev server
+npm start
